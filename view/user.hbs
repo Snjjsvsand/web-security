@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  html , body {
+    height: 100%;
+    background: #fcfcfc;
+  }
+  .container {
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ebeef5;
+    border-top: 10px solid #ebeef5 ;
+  }
+  .mail {
+    margin: 10px;
+    height: 300px;
+    padding: 10px;
+  }
+</style>
+<body>
+  <h2>Welcome {{ username }}!</h2>
+  <h2>Your balance is {{ balance }}</h2>
+  <div class="container">
+    <h3>新邮件</h3>
+    <div class="mail">
+      <a href="/cors/consume?amount=100">--->点击查看美女图片</a>
+      <div>from your dear hacker.</div>
+    </div>
+  </div>
+</body>
+</html>
